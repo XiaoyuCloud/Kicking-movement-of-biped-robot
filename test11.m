@@ -1,0 +1,2 @@
+global uLINK;
+abc=uLINK;

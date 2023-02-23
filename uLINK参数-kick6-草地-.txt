@@ -1,0 +1,69 @@
+bent 40
+%rleg
+uLINK(4).dq=-0.4;
+uLINK(5).dq=0.8;
+uLINK(6).dq=-0.4;
+%lleg
+uLINK(11).dq=-0.4;
+uLINK(12).dq=0.8;
+uLINK(13).dq=-0.4;
+
+roll 100
+%rleg
+uLINK(3).dq=-0.38;
+uLINK(7).dq=0.38;
+%lleg
+uLINK(10).dq=-0.38;
+uLINK(14).dq=0.38;
+
+lift1 40
+%rleg
+uLINK(4).dq=-0.4;
+uLINK(5).dq=0.6;
+uLINK(6).dq=-0.2;
+
+lift2 160
+%rleg
+uLINK(5).dq=0.4;
+uLINK(6).dq=-0.4;
+
+kick1 10
+%rleg
+uLINK(4).dq=-6;
+uLINK(5).dq=3.5;
+uLINK(6).dq=2.5;
+%lleg
+uLINK(11).dq=-1;
+uLINK(12).dq=1;
+uLINK(13).dq=0;
+
+kick2 10
+%rleg
+uLINK(4).dq=-3;
+uLINK(5).dq=-6.2;
+uLINK(6).dq=9.2;
+%lleg
+uLINK(11).dq=-1;
+uLINK(12).dq=1;
+uLINK(13).dq=0;
+
+kick return1 
+
+kick return2 10
+%rleg
+uLINK(3).dq=-0.1;
+uLINK(4).dq=6;
+uLINK(5).dq=-3.5;
+uLINK(6).dq=-2.5;
+uLINK(7).dq=0.1;
+%lleg
+uLINK(11).dq=1;
+uLINK(12).dq=-1;
+uLINK(13).dq=0;
+
+lift return1 160
+%rleg
+uLINK(3).dq=0.01;
+uLINK(5).dq=-0.4;
+uLINK(6).dq=0.4;
+uLINK(7).dq=-0.01;
